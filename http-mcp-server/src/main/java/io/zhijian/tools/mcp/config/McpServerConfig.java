@@ -41,6 +41,7 @@ public class McpServerConfig implements WebMvcConfigurer {
      * 创建McpSyncServer Bean
      * 负责MCP服务器的初始化和配置
      */
+    @SuppressWarnings("deprecation")
     @Bean
     public McpSyncServer mcpSyncServer(HttpServletSseServerTransportProvider transportProvider) {
         System.setProperty("file.encoding", "UTF-8");
