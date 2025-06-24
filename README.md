@@ -2,6 +2,8 @@
 
 这是一个用于学习和实践 Model Context Protocol (MCP) 的项目，包含服务器端和客户端实现。
 
+MCP 采用的是 `https://github.com/zhengxiaosong/mcp-java-sdk` 这个版本
+
 ## 项目结构
 
 项目包含三个主要模块：
