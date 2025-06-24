@@ -1,0 +1,18 @@
+# Azure OpenAI Configuration
+azure.openai.endpoint=https://your-resource.openai.azure.com
+azure.openai.credential=your-api-key-here
+azure.openai.engine=gpt-4o
+azure.openai.api_version=2024-02-15-preview
+azure.openai.temperature=0.01
+azure.openai.max_tokens=16384
+azure.openai.top_p=0.95
+
+# DeepSeek Configuration
+deepseek.api.url=https://api.siliconflow.cn/v1/chat/completions
+deepseek.api.key=your-deepseek-api-key-here
+deepseek.model=deepseek-ai/DeepSeek-R1
+deepseek.temperature=0.6
+deepseek.max_tokens=512
+deepseek.top_p=0.95
+deepseek.top_k=50
+deepseek.frequency_penalty=0.5 
